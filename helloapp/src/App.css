@@ -1,0 +1,72 @@
+/*UC7  Global CSS*/ 
+
+body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+  
+}
+
+.content {
+  background-color: orange;
+  flex-grow: 1;
+  width: 600px;
+  border: 5px solid;
+  margin: 0 0 10px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.input input {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width:182px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 10px;
+  color:blue;
+  text-align: center
+}
+
+.Details {
+  text-align: left;
+}
+
+.Details p {
+  line-height: 1.5;
+  font-family: 'Arial', sans-serif; 
+  text-align: justify;
+
+}
+
+.error{
+  color:red
+}
