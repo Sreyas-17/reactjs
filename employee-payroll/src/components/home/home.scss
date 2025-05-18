@@ -1,0 +1,217 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 28px;
+  margin: 0;
+}
+
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.employee-count {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.error {
+  color: #d32f2f;
+  background-color: #ffebee;
+  border-radius: 5px;
+}
+
+.no-employees {
+  text-align: center;
+  padding: 60px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.no-employees p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.no-employees button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no-employees button:hover {
+  background-color: #1976D2;
+}
+
+.employees-table {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow-x: auto;
+  width: 100%;
+}
+
+.employees-table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  min-width: 800px;
+  border-spacing: 0;
+}
+
+.employees-table thead {
+  background-color: #f5f5f5;
+}
+
+.employees-table th {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 5px;
+}
+
+.employees-table tbody tr {
+  border-bottom: 1px solid #eee;
+  height: 70px;
+}
+
+.employees-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.employees-table td {
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 5px;
+}
+
+.employees-table th:nth-child(1), 
+.employees-table td:nth-child(1) { 
+  width: 60px; 
+  padding: 5px;
+}
+
+.employees-table th:nth-child(2), 
+.employees-table td:nth-child(2) { 
+  width: 12%; 
+}
+
+.employees-table th:nth-child(3), 
+.employees-table td:nth-child(3) { 
+  width: 8%; 
+}
+
+.employees-table th:nth-child(4), 
+.employees-table td:nth-child(4) { 
+  width: 15%; 
+}
+
+.employees-table th:nth-child(5), 
+.employees-table td:nth-child(5) { 
+  width: 10%; 
+}
+
+.employees-table th:nth-child(6), 
+.employees-table td:nth-child(6) { 
+  width: 10%; 
+}
+
+.employees-table th:nth-child(7), 
+.employees-table td:nth-child(7) { 
+  width: 110px; 
+  min-width: 110px;
+  padding: 5px;
+  
+}
+
+.profile-cell {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.profile-image, .profile-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px auto;
+  display: block;
+}
+
+.profile-placeholder {
+  background-color: #e1e1e1;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+  margin-top:15px;
+}
+
+.actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+
+.actions .edit-btn {
+  background-color: #FFA726;
+  color: white;
+}
+
+.actions .edit-btn:hover {
+  background-color: #FB8C00;
+}
+
+.actions .delete-btn {
+  background-color: #EF5350;
+  color: white;
+}
+
+.actions .delete-btn:hover {
+  background-color: #E53935;
+}
